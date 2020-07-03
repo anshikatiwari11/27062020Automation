@@ -1,6 +1,6 @@
 package Statements;
 
-public class class1 {
+public class ifelseclass1 {
 
 	public static void main(String[] args) {
 		int a=10;
