@@ -9,10 +9,19 @@ public class Asign6 {
 		
 		//For read 
 		
-		String fruits [] = {"Manago","Apple","Banna"};
+		String fruits [] = {"Mango","Apple","Banana", "Orange","Grapes" };
 		double price [] = {23.45,123.67,234.56};
 		
+		for(String fruit: fruits)
+		{
+			System.out.println(fruit);
+		}
 		String [][] excelvalue = new String [10][5];
+		for(int i =0 ; i<=2; i ++)
+			System.out.println(fruits[i]);
+		System.out.println("Demo of enhanced for loop");
+		for(double name : price)
+			System.out.println(name);
 
 	}
 
