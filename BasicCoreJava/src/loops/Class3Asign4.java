@@ -1,6 +1,6 @@
 package loops;
 
-public class Asign4 {
+public class Class3Asign4 {
 
 	public static void main(String[] args) {
 		// 1 2 3 4 5

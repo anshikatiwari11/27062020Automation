@@ -1,6 +1,6 @@
 package VariableandDataTypes;
 
-public class Asign1 {
+public class Class3Asign1 {
 
 	public static void main(String[] args) {
 		int a=10;

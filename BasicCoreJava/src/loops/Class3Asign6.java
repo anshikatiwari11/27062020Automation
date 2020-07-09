@@ -1,6 +1,6 @@
 package loops;
 
-public class Asign6 {
+public class Class3Asign6 {
 
 	public static void main(String[] args) {
 		// Create an array to store fruits name
