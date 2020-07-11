@@ -1,5 +1,5 @@
 //Write a for loop to print even numbers between 1 to 100.
-package assignments1Programs07072020;
+package assignment1Programs07072020;
 
 public class Problem2 {
 

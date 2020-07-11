@@ -1,5 +1,5 @@
 //Find the least number in a array.
-package assignments1Programs07072020;
+package assignment1Programs07072020;
 
 public class Problem9 {
 

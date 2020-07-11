@@ -1,5 +1,5 @@
 //Print alternate elements of String array.
-package assignments1Programs07072020;
+package assignment1Programs07072020;
 
 public class Problem7 {
 

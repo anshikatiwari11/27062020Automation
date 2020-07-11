@@ -8,12 +8,14 @@ public class Users {
 		sm.texting();
 		sm.videocall();
 		
-		Mobile mob= new Mobile();
+		sm.calling();
+		
+		/*Mobile mob= new Mobile();
 		mob.calling();
 		mob.texting();
 		
 		Telephone tel= new Telephone();
-		tel.calling();
+		tel.calling();*/
 
 	}
 

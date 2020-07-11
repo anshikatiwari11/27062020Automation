@@ -1,5 +1,5 @@
 //What will be the output of following:
-package assignments1Programs07072020;
+package assignment1Programs07072020;
 
 public class Problem13 {
 
@@ -19,3 +19,5 @@ public class Problem13 {
 		}
 		}
 }
+//int code: 32 bits (-2,147,483,648 .. 2,147,483,647)
+//long code: 64 bits (-9,223,372,036,854,775,808 .. 9,223,372,036,854,775,807)

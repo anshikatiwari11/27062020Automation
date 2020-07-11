@@ -1,5 +1,5 @@
 //What will be the output of following program.
-package assignments1Programs07072020;
+package assignment1Programs07072020;
 
 public class Problem11 {
 	public static void main(String[] args) {
