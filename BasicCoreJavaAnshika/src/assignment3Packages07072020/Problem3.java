@@ -1,12 +1,11 @@
-/*package assignment3Packages07072020;
+package assignment3Packages07072020;
 
-public class Problem2 {
-
+/*public class Problem3 {
 
 	public static void main(String[] args) {
+		int o[] = new int[2];
 
 		try {
-			int o[] = new int[2];
 			o[3] = 23;
 			o[1] = 33;
 		} catch (Exception e) {
@@ -14,7 +13,7 @@ public class Problem2 {
 			e.printStackTrace();
 		}
 
-		System.out.println(o[1]);
+		System.out.println("2nd pos --" + o[1]);
 	}
 
 }*/

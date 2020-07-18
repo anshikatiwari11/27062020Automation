@@ -1,6 +1,6 @@
-/*package assignment3Packages07072020;
+package assignment3Packages07072020;
 
-public class Problem1 {
+/*public class Problem1 {
 
 	public static void main(String[] args) {
 		try{
@@ -12,3 +12,7 @@ public class Problem1 {
 			}
 			}
 			}*/
+
+
+//Error of ArrayIndexOutOfBoundsException which indicate that
+//an array has been accessed with an illegal index. 
