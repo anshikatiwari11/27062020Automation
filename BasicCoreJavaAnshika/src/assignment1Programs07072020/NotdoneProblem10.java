@@ -13,19 +13,15 @@ public class NotdoneProblem10 {
 				311, 1 };
 		for (int i = 0; i < arr.length; i++) {
 			int a = arr[i];
-			int occurrence = 1;
+			int occurrence = 0;
 			for (int j = i + 1; j < arr.length; j++) {
 
 				if ((arr[i] == arr[j]) && (i != j)) {
 
 					occurrence = occurrence + 1;
 				}
-
 			}
-
 			System.out.println(arr[i] + " Repeated " + occurrence + " Times.");
 		}
-
 	}
-
 }
