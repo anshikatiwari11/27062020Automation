@@ -10,9 +10,15 @@ import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class Xls_Reader {
+	String path;
+	public Xls_Reader(String path)
+	{
+		this.path=path;
+	}
+	
 	//Path is common throughout the functions
 	
-	public String getCellData(String path, String sheetName, int rowNum, int colNum) throws IOException
+	public String getCellData(String sheetName, int rowNum, int colNum) throws IOException
 	{
 		FileInputStream file = new FileInputStream(path);
 		XSSFWorkbook wb = new XSSFWorkbook(file); // Workbook
