@@ -10,7 +10,7 @@ public class LauchBrowser {
 
 	public static void main(String[] args) throws InterruptedException {
 		//Set ChromeDriver path
-		System.setProperty("webdriver.chrome.driver", "D:\\Drivers\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Techbodhi\\Automation\\Drivers\\chromedriver_win32\\chromedriver.exe");
 		ChromeDriver dr = new ChromeDriver();
 		dr.manage().window().maximize();
 		dr.get("http://sampleapp.tricentis.com/101/");
