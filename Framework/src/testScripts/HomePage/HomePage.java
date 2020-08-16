@@ -15,6 +15,10 @@ public class HomePage extends Driver{
 	WebDriver dr;
 	pages.HomePage homePage;
 	EnterInsuranceData automobileEnterInsuranceData;
+	EnterInsuranceData truckEnterInsuranceData;
+	EnterInsuranceData motorcycleEnterInsuranceData;
+	EnterInsuranceData camperEnterInsuranceData;
+	
 	
 	@BeforeTest
 	@Parameters("browser")
@@ -23,6 +27,9 @@ public class HomePage extends Driver{
 		dr=lib.launchBrowser(browser);
 		homePage=new pages.HomePage(dr);
 		automobileEnterInsuranceData= new EnterInsuranceData(dr);
+		truckEnterInsuranceData= new EnterInsuranceData(dr);
+		motorcycleEnterInsuranceData= new EnterInsuranceData(dr);
+		camperEnterInsuranceData= new EnterInsuranceData(dr);
 	}
 	
 	@AfterTest
@@ -32,37 +39,22 @@ public class HomePage extends Driver{
 	}
 	
 	@Test
-	public void verifyIsAutomobileVisible()
+	public void verifyIsHomepageVisible()
 	{
 		Assert.assertEquals(homePage.isAutomobileDisplayed(), true);
-	}
-	
-	@Test
-	public void verifyIsTruckVisible()
-	{
 		Assert.assertEquals(homePage.isTruckDisplayed(), true);
-	}
-	
-	@Test
-	public void verifyIsMotorCycleVisible()
-	{
 		Assert.assertEquals(homePage.isMotorcycleDisplayed(), true);
-	}
-	
-	@Test
-	public void verifyIsCamperVisible()
-	{
 		Assert.assertEquals(homePage.isCamperDisplayed(), true);
 	}
-	
-	@Test(priority=1)
-	public void verifyIsAutobileClickable()
+		
+	@Test(priority=0)
+	public void verifyIsAutomobileClickable()
 	{
 		homePage.clickAutomobile();		
 		Assert.assertEquals(automobileEnterInsuranceData.isMakeDropdownDisplayed(), true);
 	}
 	
-	@Test(priority=2)
+	@Test(priority=1)
 	public void verifyIsTruckClickable()
 	{
 		lib.navigateTohomePage(dr);

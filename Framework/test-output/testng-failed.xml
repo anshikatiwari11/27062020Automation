@@ -1,22 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
   <test name="Test(failed)">
-    <parameter name="browser" value="chrome"/>
+    <parameter name="browser" value="Chrome"/>
     <classes>
-      <class name="testScripts.HomePage.HomePage">
+      <class name="testScripts.Motorcycle.SendQuote">
         <methods>
-          <include name="isAutobileClickable"/>
-          <include name="isMotorCycleVisible"/>
-          <include name="initialize"/>
-          <include name="isAutomobileVisible"/>
-          <include name="isTruckVisible"/>
-          <include name="tearDown"/>
+          <include name="verifyIsPhoneVisible"/>
+          <include name="verifyIsUsernameVisible"/>
           <include name="quitBrower"/>
-          <include name="launchBrowser"/>
-          <include name="isCamperVisible"/>
+          <include name="verifyIsEmailVisible"/>
+          <include name="enterandVerifySendQuotesPage"/>
+          <include name="verifyIsConfirmpasswordVisible"/>
+          <include name="verifyIsNewautomobileinsuranceVisible"/>
+          <include name="verifyIsPrevVisible"/>
+          <include name="verifyIsSendemailVisible"/>
+          <include name="verifyIsPasswordVisible"/>
+          <include name="verifyIsNewcamperinsuranceVisible"/>
+          <include name="verifyIsNewtruckinsuranceVisible"/>
+          <include name="verifyIsMainpageVisible"/>
+          <include name="verifyIsCommentsVisible"/>
         </methods>
-      </class> <!-- testScripts.HomePage.HomePage -->
+      </class> <!-- testScripts.Motorcycle.SendQuote -->
+      <class name="testScripts.Motorcycle.SelectPriceOption">
+        <methods>
+          <include name="verifyIsSelectpriceoptionVisible"/>
+          <include name="verifyIsSelectpriceoption1text"/>
+          <include name="verifyIsSelectpriceoptionClickable"/>
+          <include name="verifyIsSelectpriceoption1Clickable"/>
+          <include name="verifyIsSelectpriceoptiontext"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
+      <class name="testScripts.Motorcycle.PreconditionMotorcycle">
+        <methods>
+          <include name="initialize"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.PreconditionMotorcycle -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

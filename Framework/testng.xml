@@ -4,7 +4,9 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="Chrome"></parameter>
     <classes>
-      <class name="testScripts.HomePage.HomePage"/>
+    		<class name="testScripts.Motorcycle.PreconditionMotorcycle"/>
+    		<class name="testScripts.Motorcycle.SelectPriceOption"/>
+          <class name="testScripts.Motorcycle.SendQuote"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

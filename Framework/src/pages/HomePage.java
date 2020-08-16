@@ -26,57 +26,47 @@ public class HomePage {
 	{
 		return lib.isElementPresent(dr, automobile);
 	}
-	
 	public boolean isTruckDisplayed()
 	{
 		return lib.isElementPresent(dr, truck);		
 	}
-	
 	public boolean isMotorcycleDisplayed()
 	{
 		return lib.isElementPresent(dr, motorcycle);	
 	}
-	
 	public boolean isCamperDisplayed()
 	{
 		return lib.isElementPresent(dr, camper);	
 	}
-	
 	public String getAutobileText()
 	{
 		return dr.findElement(automobile).getText();
 	}
-	
 	public String getTruckText()
 	{
 		return dr.findElement(truck).getText();
 	}
-	
 	public String getMotorcycleText()
 	{
 		return dr.findElement(motorcycle).getText();
 	}
-	
 	public String getCamperText()
 	{
 		return dr.findElement(camper).getText();
 	}
-	
 	public void clickAutomobile()
 	{
+		
 		dr.findElement(automobile).click();
 	}
-	
 	public void clickTruck()
 	{
 		dr.findElement(truck).click();
 	}
-	
 	public void clickCamper()
 	{
 		dr.findElement(camper).click();
 	}
-	
 	public void clickMotorcycle()
 	{
 		dr.findElement(motorcycle).click();
