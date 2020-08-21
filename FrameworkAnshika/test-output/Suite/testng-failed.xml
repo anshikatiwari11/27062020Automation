@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testScripts.Motorcycle.PreconditionMotorcycle">
+        <methods>
+          <include name="initialize"/>
+          <include name="quitBrower"/>
+          <include name="tearDown"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.PreconditionMotorcycle -->
+      <class name="testScripts.Motorcycle.SelectPriceOption">
+        <methods>
+          <include name="beforeProductData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
+      <class name="testScripts.Motorcycle.SendQuote">
+        <methods>
+          <include name="beforeProductData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.SendQuote -->
+      <class name="testScripts.HomePage.HomePage">
+        <methods>
+          <include name="verifyIsTruckClickable"/>
+          <include name="verifyIsTricentis_servicesClickable"/>
+          <include name="launchBrowser"/>
+          <include name="verifyIsNav_twitterClickable"/>
+          <include name="verifyHomepagetext"/>
+          <include name="verifyIsMotorcycleClickable"/>
+          <include name="verifyIsVisitsupportClickable"/>
+          <include name="verifyIsHomepageVisible"/>
+          <include name="verifyIsTricentis_aboutClickable"/>
+          <include name="verifyIsTricentis_productsClickable"/>
+          <include name="verifyIsTricentis_resourcesClickable"/>
+          <include name="verifyIsNav_googleClickable"/>
+          <include name="verifyIsNav_facebookClickable"/>
+          <include name="verifyIsTricentis_eventsClickable"/>
+          <include name="verifyIsSearchsupportClickable"/>
+          <include name="verifyIsAutomobileClickable"/>
+          <include name="verifyIsCamperClickable"/>
+        </methods>
+      </class> <!-- testScripts.HomePage.HomePage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -91,8 +91,7 @@ public class StepDefinition {
 		robot.delay(2000);
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
-			
-		
+					
 	}
 
 	@Then("^document should be uploaded$")

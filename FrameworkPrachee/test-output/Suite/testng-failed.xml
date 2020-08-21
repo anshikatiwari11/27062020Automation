@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="Chrome"/>
+  <test name="Test(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="testScripts.Motorcycle.EnterInsuranceDataPrachee">
+        <methods>
+          <include name="initialize"/>
+          <include name="launchBrowser"/>
+          <include name="tearDown"/>
+          <include name="closeBrowser"/>
+          <include name="invalidWebsitentry"/>
+          <include name="hobbiesOptionsVisible"/>
+          <include name="validWebsiteEntry"/>
+          <include name="navigateToEnterInsuranceData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterInsuranceDataPrachee -->
+      <class name="testScripts.Motorcycle.EnterProductDataPrachee">
+        <methods>
+          <include name="beforeProductData"/>
+        </methods>
+      </class> <!-- testScripts.Motorcycle.EnterProductDataPrachee -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
