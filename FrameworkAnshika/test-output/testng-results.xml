@@ -2,177 +2,96 @@
 <testng-results skipped="0" failed="0" total="34" passed="34">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="264641" started-at="2020-08-21T08:24:34Z" finished-at="2020-08-21T08:28:58Z">
+  <suite name="Suite" duration-ms="237486" started-at="2020-08-21T11:32:49Z" finished-at="2020-08-21T11:36:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="264641" started-at="2020-08-21T08:24:34Z" finished-at="2020-08-21T08:28:58Z">
+    <test name="Test" duration-ms="237486" started-at="2020-08-21T11:32:49Z" finished-at="2020-08-21T11:36:47Z">
       <class name="testScripts.Motorcycle.SelectPriceOption">
-        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@6c64cb25]" name="beforeProductData" is-config="true" duration-ms="29478" started-at="2020-08-21T13:58:07Z" finished-at="2020-08-21T13:58:37Z">
+        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@523884b2]" name="beforeProductData" is-config="true" duration-ms="17462" started-at="2020-08-21T17:06:10Z" finished-at="2020-08-21T17:06:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeProductData -->
-        <test-method status="PASS" signature="verifyIsSelectpriceoptionVisible()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@6c64cb25]" name="verifyIsSelectpriceoptionVisible" duration-ms="8365" started-at="2020-08-21T13:58:37Z" finished-at="2020-08-21T13:58:45Z">
+        <test-method status="PASS" signature="verifyIsSelectpriceoptionVisible()[pri:0, instance:testScripts.Motorcycle.SelectPriceOption@523884b2]" name="verifyIsSelectpriceoptionVisible" duration-ms="821" started-at="2020-08-21T17:06:28Z" finished-at="2020-08-21T17:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectpriceoptionVisible -->
-        <test-method status="PASS" signature="verifyIsSelectpriceoptiontext()[pri:1, instance:testScripts.Motorcycle.SelectPriceOption@6c64cb25]" name="verifyIsSelectpriceoptiontext" duration-ms="814" started-at="2020-08-21T13:58:45Z" finished-at="2020-08-21T13:58:46Z">
+        <test-method status="PASS" signature="verifyIsSelectpriceoptiontext()[pri:1, instance:testScripts.Motorcycle.SelectPriceOption@523884b2]" name="verifyIsSelectpriceoptiontext" duration-ms="818" started-at="2020-08-21T17:06:29Z" finished-at="2020-08-21T17:06:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectpriceoptiontext -->
-        <test-method status="PASS" signature="verifyIsSelectpriceoptionClickable()[pri:2, instance:testScripts.Motorcycle.SelectPriceOption@6c64cb25]" name="verifyIsSelectpriceoptionClickable" duration-ms="780" started-at="2020-08-21T13:58:46Z" finished-at="2020-08-21T13:58:47Z">
+        <test-method status="PASS" signature="verifyIsSelectpriceoptionClickable()[pri:2, instance:testScripts.Motorcycle.SelectPriceOption@523884b2]" name="verifyIsSelectpriceoptionClickable" duration-ms="1334" started-at="2020-08-21T17:06:29Z" finished-at="2020-08-21T17:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectpriceoptionClickable -->
-        <test-method status="PASS" signature="verifyIsSelectpriceoption1text()[pri:3, instance:testScripts.Motorcycle.SelectPriceOption@6c64cb25]" name="verifyIsSelectpriceoption1text" duration-ms="268" started-at="2020-08-21T13:58:47Z" finished-at="2020-08-21T13:58:47Z">
+        <test-method status="PASS" signature="verifyIsSelectpriceoption1text()[pri:3, instance:testScripts.Motorcycle.SelectPriceOption@523884b2]" name="verifyIsSelectpriceoption1text" duration-ms="377" started-at="2020-08-21T17:06:31Z" finished-at="2020-08-21T17:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectpriceoption1text -->
-        <test-method status="PASS" signature="verifyIsSelectpriceoption1Clickable()[pri:4, instance:testScripts.Motorcycle.SelectPriceOption@6c64cb25]" name="verifyIsSelectpriceoption1Clickable" duration-ms="319" started-at="2020-08-21T13:58:47Z" finished-at="2020-08-21T13:58:47Z">
+        <test-method status="PASS" signature="verifyIsSelectpriceoption1Clickable()[pri:4, instance:testScripts.Motorcycle.SelectPriceOption@523884b2]" name="verifyIsSelectpriceoption1Clickable" duration-ms="254" started-at="2020-08-21T17:06:31Z" finished-at="2020-08-21T17:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSelectpriceoption1Clickable -->
       </class> <!-- testScripts.Motorcycle.SelectPriceOption -->
-      <class name="testScripts.HomePage.HomePage">
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.HomePage.HomePage@245b4bdc]" name="launchBrowser" is-config="true" duration-ms="14864" started-at="2020-08-21T13:55:23Z" finished-at="2020-08-21T13:55:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="verifyIsHomepageVisible()[pri:-1, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsHomepageVisible" duration-ms="25993" started-at="2020-08-21T13:55:38Z" finished-at="2020-08-21T13:56:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsHomepageVisible -->
-        <test-method status="PASS" signature="verifyHomepagetext()[pri:0, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyHomepagetext" duration-ms="1777" started-at="2020-08-21T13:56:04Z" finished-at="2020-08-21T13:56:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyHomepagetext -->
-        <test-method status="PASS" signature="verifyIsSearchsupportClickable()[pri:1, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsSearchsupportClickable" duration-ms="28754" started-at="2020-08-21T13:56:05Z" finished-at="2020-08-21T13:56:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsSearchsupportClickable -->
-        <test-method status="PASS" signature="verifyIsVisitsupportClickable()[pri:2, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsVisitsupportClickable" duration-ms="17961" started-at="2020-08-21T13:56:34Z" finished-at="2020-08-21T13:56:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsVisitsupportClickable -->
-        <test-method status="PASS" signature="verifyIsAutomobileClickable()[pri:3, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsAutomobileClickable" duration-ms="4020" started-at="2020-08-21T13:56:52Z" finished-at="2020-08-21T13:56:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsAutomobileClickable -->
-        <test-method status="PASS" signature="verifyIsTruckClickable()[pri:4, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsTruckClickable" duration-ms="3245" started-at="2020-08-21T13:56:56Z" finished-at="2020-08-21T13:56:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTruckClickable -->
-        <test-method status="PASS" signature="verifyIsMotorcycleClickable()[pri:5, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsMotorcycleClickable" duration-ms="3387" started-at="2020-08-21T13:56:59Z" finished-at="2020-08-21T13:57:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsMotorcycleClickable -->
-        <test-method status="PASS" signature="verifyIsCamperClickable()[pri:6, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsCamperClickable" duration-ms="3874" started-at="2020-08-21T13:57:03Z" finished-at="2020-08-21T13:57:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsCamperClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_aboutClickable()[pri:7, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsTricentis_aboutClickable" duration-ms="14202" started-at="2020-08-21T13:57:07Z" finished-at="2020-08-21T13:57:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_aboutClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_productsClickable()[pri:8, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsTricentis_productsClickable" duration-ms="9260" started-at="2020-08-21T13:57:21Z" finished-at="2020-08-21T13:57:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_productsClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_eventsClickable()[pri:9, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsTricentis_eventsClickable" duration-ms="8378" started-at="2020-08-21T13:57:30Z" finished-at="2020-08-21T13:57:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_eventsClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_resourcesClickable()[pri:10, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsTricentis_resourcesClickable" duration-ms="9146" started-at="2020-08-21T13:57:39Z" finished-at="2020-08-21T13:57:48Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_resourcesClickable -->
-        <test-method status="PASS" signature="verifyIsTricentis_servicesClickable()[pri:11, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsTricentis_servicesClickable" duration-ms="6304" started-at="2020-08-21T13:57:48Z" finished-at="2020-08-21T13:57:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsTricentis_servicesClickable -->
-        <test-method status="PASS" signature="verifyIsNav_facebookClickable()[pri:12, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsNav_facebookClickable" duration-ms="4556" started-at="2020-08-21T13:57:54Z" finished-at="2020-08-21T13:57:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNav_facebookClickable -->
-        <test-method status="PASS" signature="verifyIsNav_twitterClickable()[pri:13, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsNav_twitterClickable" duration-ms="4459" started-at="2020-08-21T13:57:59Z" finished-at="2020-08-21T13:58:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNav_twitterClickable -->
-        <test-method status="PASS" signature="verifyIsNav_googleClickable()[pri:14, instance:testScripts.HomePage.HomePage@245b4bdc]" name="verifyIsNav_googleClickable" duration-ms="4392" started-at="2020-08-21T13:58:03Z" finished-at="2020-08-21T13:58:07Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyIsNav_googleClickable -->
-      </class> <!-- testScripts.HomePage.HomePage -->
       <class name="testScripts.Motorcycle.SendQuote">
-        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="beforeProductData" is-config="true" duration-ms="1" started-at="2020-08-21T13:58:47Z" finished-at="2020-08-21T13:58:47Z">
+        <test-method status="PASS" signature="beforeProductData()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="beforeProductData" is-config="true" duration-ms="0" started-at="2020-08-21T17:06:31Z" finished-at="2020-08-21T17:06:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeProductData -->
-        <test-method status="PASS" signature="enterandVerifySendQuotesPage()[pri:-1, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="enterandVerifySendQuotesPage" duration-ms="9396" started-at="2020-08-21T13:58:47Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="enterandVerifySendQuotesPage()[pri:-1, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="enterandVerifySendQuotesPage" duration-ms="12740" started-at="2020-08-21T17:06:31Z" finished-at="2020-08-21T17:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterandVerifySendQuotesPage -->
-        <test-method status="PASS" signature="verifyIsCommentsVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsCommentsVisible" duration-ms="27" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsCommentsVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsCommentsVisible" duration-ms="42" started-at="2020-08-21T17:06:44Z" finished-at="2020-08-21T17:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsCommentsVisible -->
-        <test-method status="PASS" signature="verifyIsConfirmpasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsConfirmpasswordVisible" duration-ms="30" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsConfirmpasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsConfirmpasswordVisible" duration-ms="42" started-at="2020-08-21T17:06:44Z" finished-at="2020-08-21T17:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsConfirmpasswordVisible -->
-        <test-method status="PASS" signature="verifyIsEmailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsEmailVisible" duration-ms="31" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsEmailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsEmailVisible" duration-ms="39" started-at="2020-08-21T17:06:44Z" finished-at="2020-08-21T17:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsEmailVisible -->
-        <test-method status="PASS" signature="verifyIsMainpageVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsMainpageVisible" duration-ms="29" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsMainpageVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsMainpageVisible" duration-ms="57" started-at="2020-08-21T17:06:44Z" finished-at="2020-08-21T17:06:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsMainpageVisible -->
-        <test-method status="PASS" signature="verifyIsNewautomobileinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsNewautomobileinsuranceVisible" duration-ms="30" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsNewautomobileinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsNewautomobileinsuranceVisible" duration-ms="122" started-at="2020-08-21T17:06:44Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNewautomobileinsuranceVisible -->
-        <test-method status="PASS" signature="verifyIsNewcamperinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsNewcamperinsuranceVisible" duration-ms="28" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsNewcamperinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsNewcamperinsuranceVisible" duration-ms="48" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNewcamperinsuranceVisible -->
-        <test-method status="PASS" signature="verifyIsNewtruckinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsNewtruckinsuranceVisible" duration-ms="30" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsNewtruckinsuranceVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsNewtruckinsuranceVisible" duration-ms="91" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsNewtruckinsuranceVisible -->
-        <test-method status="PASS" signature="verifyIsPasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsPasswordVisible" duration-ms="31" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsPasswordVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsPasswordVisible" duration-ms="51" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsPasswordVisible -->
-        <test-method status="PASS" signature="verifyIsPhoneVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsPhoneVisible" duration-ms="31" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsPhoneVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsPhoneVisible" duration-ms="63" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsPhoneVisible -->
-        <test-method status="PASS" signature="verifyIsPrevVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsPrevVisible" duration-ms="31" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsPrevVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsPrevVisible" duration-ms="67" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsPrevVisible -->
-        <test-method status="PASS" signature="verifyIsSendemailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsSendemailVisible" duration-ms="27" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsSendemailVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsSendemailVisible" duration-ms="53" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsSendemailVisible -->
-        <test-method status="PASS" signature="verifyIsUsernameVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@6ae5aa72]" name="verifyIsUsernameVisible" duration-ms="28" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:57Z">
+        <test-method status="PASS" signature="verifyIsUsernameVisible()[pri:0, instance:testScripts.Motorcycle.SendQuote@5b275dab]" name="verifyIsUsernameVisible" duration-ms="45" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyIsUsernameVisible -->
       </class> <!-- testScripts.Motorcycle.SendQuote -->
-      <class name="testScripts.Motorcycle.PreconditionMotorcycle">
-        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@dd8ba08]" name="initialize" is-config="true" duration-ms="21" started-at="2020-08-21T13:54:34Z" finished-at="2020-08-21T13:54:34Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialize -->
-        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@dd8ba08]" name="launchBrowser" is-config="true" duration-ms="49059" started-at="2020-08-21T13:54:34Z" finished-at="2020-08-21T13:55:23Z">
+      <class name="testScripts.HomePage.HomePage">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.HomePage.HomePage@4501b7af]" name="launchBrowser" is-config="true" duration-ms="107" started-at="2020-08-21T17:03:34Z" finished-at="2020-08-21T17:03:34Z">
           <params>
             <param index="0">
               <value>
@@ -183,11 +102,92 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="quitBrower()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@dd8ba08]" name="quitBrower" is-config="true" duration-ms="1087" started-at="2020-08-21T13:58:57Z" finished-at="2020-08-21T13:58:58Z">
+        <test-method status="PASS" signature="verifyIsHomepageVisible()[pri:-1, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsHomepageVisible" duration-ms="2601" started-at="2020-08-21T17:03:34Z" finished-at="2020-08-21T17:03:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsHomepageVisible -->
+        <test-method status="PASS" signature="verifyHomepagetext()[pri:0, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyHomepagetext" duration-ms="2002" started-at="2020-08-21T17:03:37Z" finished-at="2020-08-21T17:03:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomepagetext -->
+        <test-method status="PASS" signature="verifyIsSearchsupportClickable()[pri:1, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsSearchsupportClickable" duration-ms="27545" started-at="2020-08-21T17:03:39Z" finished-at="2020-08-21T17:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsSearchsupportClickable -->
+        <test-method status="PASS" signature="verifyIsVisitsupportClickable()[pri:2, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsVisitsupportClickable" duration-ms="5103" started-at="2020-08-21T17:04:06Z" finished-at="2020-08-21T17:04:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsVisitsupportClickable -->
+        <test-method status="PASS" signature="verifyIsAutomobileClickable()[pri:3, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsAutomobileClickable" duration-ms="6589" started-at="2020-08-21T17:04:12Z" finished-at="2020-08-21T17:04:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsAutomobileClickable -->
+        <test-method status="PASS" signature="verifyIsTruckClickable()[pri:4, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsTruckClickable" duration-ms="4115" started-at="2020-08-21T17:04:18Z" finished-at="2020-08-21T17:04:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTruckClickable -->
+        <test-method status="PASS" signature="verifyIsMotorcycleClickable()[pri:5, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsMotorcycleClickable" duration-ms="4535" started-at="2020-08-21T17:04:22Z" finished-at="2020-08-21T17:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsMotorcycleClickable -->
+        <test-method status="PASS" signature="verifyIsCamperClickable()[pri:6, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsCamperClickable" duration-ms="5098" started-at="2020-08-21T17:04:27Z" finished-at="2020-08-21T17:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsCamperClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_aboutClickable()[pri:7, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsTricentis_aboutClickable" duration-ms="20511" started-at="2020-08-21T17:04:32Z" finished-at="2020-08-21T17:04:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_aboutClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_productsClickable()[pri:8, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsTricentis_productsClickable" duration-ms="9708" started-at="2020-08-21T17:04:52Z" finished-at="2020-08-21T17:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_productsClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_eventsClickable()[pri:9, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsTricentis_eventsClickable" duration-ms="14838" started-at="2020-08-21T17:05:02Z" finished-at="2020-08-21T17:05:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_eventsClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_resourcesClickable()[pri:10, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsTricentis_resourcesClickable" duration-ms="17562" started-at="2020-08-21T17:05:17Z" finished-at="2020-08-21T17:05:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_resourcesClickable -->
+        <test-method status="PASS" signature="verifyIsTricentis_servicesClickable()[pri:11, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsTricentis_servicesClickable" duration-ms="9731" started-at="2020-08-21T17:05:35Z" finished-at="2020-08-21T17:05:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTricentis_servicesClickable -->
+        <test-method status="PASS" signature="verifyIsNav_facebookClickable()[pri:12, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsNav_facebookClickable" duration-ms="8580" started-at="2020-08-21T17:05:44Z" finished-at="2020-08-21T17:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsNav_facebookClickable -->
+        <test-method status="PASS" signature="verifyIsNav_twitterClickable()[pri:13, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsNav_twitterClickable" duration-ms="7115" started-at="2020-08-21T17:05:53Z" finished-at="2020-08-21T17:06:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsNav_twitterClickable -->
+        <test-method status="PASS" signature="verifyIsNav_googleClickable()[pri:14, instance:testScripts.HomePage.HomePage@4501b7af]" name="verifyIsNav_googleClickable" duration-ms="10404" started-at="2020-08-21T17:06:00Z" finished-at="2020-08-21T17:06:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsNav_googleClickable -->
+      </class> <!-- testScripts.HomePage.HomePage -->
+      <class name="testScripts.Motorcycle.PreconditionMotorcycle">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@28d25987]" name="initialize" is-config="true" duration-ms="101" started-at="2020-08-21T17:02:49Z" finished-at="2020-08-21T17:02:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@28d25987]" name="launchBrowser" is-config="true" duration-ms="44920" started-at="2020-08-21T17:02:49Z" finished-at="2020-08-21T17:03:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="quitBrower()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@28d25987]" name="quitBrower" is-config="true" duration-ms="1674" started-at="2020-08-21T17:06:45Z" finished-at="2020-08-21T17:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quitBrower -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@dd8ba08]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-21T13:58:58Z" finished-at="2020-08-21T13:58:58Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.Motorcycle.PreconditionMotorcycle@28d25987]" name="tearDown" is-config="true" duration-ms="1" started-at="2020-08-21T17:06:50Z" finished-at="2020-08-21T17:06:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
