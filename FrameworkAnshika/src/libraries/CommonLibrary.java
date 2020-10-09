@@ -22,6 +22,7 @@ public class CommonLibrary {
 				dr= new ChromeDriver();
 				break;
 			case "Firefox":
+				System.setProperty("webdriver.gecko.driver", Configuration.geckoPath);
 				//Add gecko driver path for firefox driver
 				dr= new FirefoxDriver();
 				break;

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>34/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/0/34</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Aug 21 17:02:49 IST 2020</td>
+<td>Started on:</td><td>Sun Sep 20 17:18:46 IST 2020</td>
 </tr>
-<tr><td>Total time:</td><td>237 seconds (237486 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (346 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,77 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.Motorcycle.PreconditionMotorcycle.launchBrowser()'><b>launchBrowser</b><br>Test class: testScripts.Motorcycle.PreconditionMotorcycle<br>Parameters: Chrome</td>
+<td><div><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.PreconditionMotorcycle.launchBrowser(PreconditionMotorcycle.java:31)
+... Removed 23 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace540585569", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace540585569'><pre>java.lang.NullPointerException
+	at testScripts.Motorcycle.PreconditionMotorcycle.launchBrowser(PreconditionMotorcycle.java:31)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:216)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:143)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:656)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1225)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1150)
+	at org.testng.TestNG.runSuites(TestNG.java:1075)
+	at org.testng.TestNG.run(TestNG.java:1047)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+</pre></div></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testScripts.HomePage.HomePage.launchBrowser()'><b>launchBrowser</b><br>Test class: testScripts.HomePage.HomePage</td>
+<td></td>
+<td>0</td>
+<td>testScripts.HomePage.HomePage@4501b7af</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SelectPriceOption.beforeProductData()'><b>beforeProductData</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
+<td></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SelectPriceOption@523884b2</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.SendQuote.beforeProductData()'><b>beforeProductData</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
+<td></td>
+<td>0</td>
+<td>testScripts.Motorcycle.SendQuote@5b275dab</td></tr>
+<tr>
+<td title='testScripts.Motorcycle.PreconditionMotorcycle.quitBrower()'><b>quitBrower</b><br>Test class: testScripts.Motorcycle.PreconditionMotorcycle</td>
+<td></td>
+<td>0</td>
+<td>null</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -77,22 +146,22 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.Motorcycle.SendQuote.enterandVerifySendQuotesPage()'><b>enterandVerifySendQuotesPage</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
 <td></td>
-<td>12</td>
+<td>0</td>
 <td>testScripts.Motorcycle.SendQuote@5b275dab</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyHomepagetext()'><b>verifyHomepagetext</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>2</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsAutomobileClickable()'><b>verifyIsAutomobileClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>6</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsCamperClickable()'><b>verifyIsCamperClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>5</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.SendQuote.verifyIsCommentsVisible()'><b>verifyIsCommentsVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
@@ -112,7 +181,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsHomepageVisible()'><b>verifyIsHomepageVisible</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>2</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.SendQuote.verifyIsMainpageVisible()'><b>verifyIsMainpageVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
@@ -122,22 +191,22 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsMotorcycleClickable()'><b>verifyIsMotorcycleClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>4</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsNav_facebookClickable()'><b>verifyIsNav_facebookClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>8</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsNav_googleClickable()'><b>verifyIsNav_googleClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>10</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsNav_twitterClickable()'><b>verifyIsNav_twitterClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>7</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.SendQuote.verifyIsNewautomobileinsuranceVisible()'><b>verifyIsNewautomobileinsuranceVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
@@ -172,7 +241,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsSearchsupportClickable()'><b>verifyIsSearchsupportClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>27</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoption1Clickable()'><b>verifyIsSelectpriceoption1Clickable</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
@@ -187,7 +256,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptionClickable()'><b>verifyIsSelectpriceoptionClickable</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
 <td></td>
-<td>1</td>
+<td>0</td>
 <td>testScripts.Motorcycle.SelectPriceOption@523884b2</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.SelectPriceOption.verifyIsSelectpriceoptionVisible()'><b>verifyIsSelectpriceoptionVisible</b><br>Test class: testScripts.Motorcycle.SelectPriceOption</td>
@@ -207,32 +276,32 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsTricentis_aboutClickable()'><b>verifyIsTricentis_aboutClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>20</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsTricentis_eventsClickable()'><b>verifyIsTricentis_eventsClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>14</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsTricentis_productsClickable()'><b>verifyIsTricentis_productsClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>9</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsTricentis_resourcesClickable()'><b>verifyIsTricentis_resourcesClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>17</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsTricentis_servicesClickable()'><b>verifyIsTricentis_servicesClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>9</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsTruckClickable()'><b>verifyIsTruckClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>4</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 <tr>
 <td title='testScripts.Motorcycle.SendQuote.verifyIsUsernameVisible()'><b>verifyIsUsernameVisible</b><br>Test class: testScripts.Motorcycle.SendQuote</td>
@@ -242,7 +311,7 @@ function toggleAllBoxes() {
 <tr>
 <td title='testScripts.HomePage.HomePage.verifyIsVisitsupportClickable()'><b>verifyIsVisitsupportClickable</b><br>Test class: testScripts.HomePage.HomePage</td>
 <td></td>
-<td>5</td>
+<td>0</td>
 <td>testScripts.HomePage.HomePage@4501b7af</td></tr>
 </table><p>
 </body>
